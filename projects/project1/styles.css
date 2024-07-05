@@ -7,6 +7,7 @@ body {
   font-family: system-ui, sans-serif;
   color: black;
   background-color: white;
+  text-align: center;
 }
 
 nav {
@@ -49,6 +50,8 @@ h1 {
   width: 100px;
   height: 100px;
   margin: 0.5rem auto;
+  border: 2px solid black;
+  
 }
 button,
 input {
@@ -57,6 +60,7 @@ input {
   border: none;
   padding: 4px;
   background-color: aquamarine;
+  margin-top: 5vh;
   
 }
 

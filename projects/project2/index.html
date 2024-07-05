@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="/projects/project2/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/page2.html" aria-current="page">Other page</a>
+    </nav>
+    <main>
+      <h1>Project-2</h1>
+      <h3>BMI Calculator</h3>
+      <label >Weight in Kg</label>
+      <input
+        id="wgt"
+        class="col"
+        type="number"
+        placeholder="Enter Weight"
+      />
+    </br>
+      <label >Height in cm</label>
+      <input
+        id="ht"
+        class="col"
+        type="number"
+        placeholder="Enter Height"
+      />
+    </br>
+      <button id="me">Calculate BMI</button>
+<div id="bmi">
+
+</div>
+<div class="bmi-guide">
+    <h2>BMI Guide</h2>
+    <table>
+      <tr>
+        <th>BMI Range</th>
+        <th>Category</th>
+      </tr>
+      <tr>
+        <td>Less than 18.5</td>
+        <td>Underweight</td>
+      </tr>
+      <tr>
+        <td>18.5 - 24.9</td>
+        <td>Normal weight</td>
+      </tr>
+      <tr>
+        <td>25 - 29.9</td>
+        <td>Overweight</td>
+      </tr>
+      <tr>
+        <td>30 or greater</td>
+        <td>Obesity</td>
+      </tr>
+    </table>
+  </div>
+    </main>
+  </body>
+  <script type="module" src="/projects/project2/script.js"></script>
+</html>
