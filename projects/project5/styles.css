@@ -5,9 +5,10 @@
   body {
     margin: 0;
     font-family: system-ui, sans-serif;
-    color: black;
+    color: white;
     background-color: white;
     text-align: center;
+    background-color: #000;
   }
   
   nav {
@@ -45,31 +46,32 @@
     font-weight: bold;
     font-size: 1.5rem;
   }
+
+  h2,h6 {
+    font-weight: bold;
+   background-color: coral;
+   padding: 10px;
+   margin-bottom: 50px;
+   font-size: larger;
+
+  }
+  
   
   .box {
     width: 100px;
     height: 100px;
     margin: 0.5rem auto;
   }
-  
-  input {
-    border-radius: 20%;
-    height: 40px;
-    border: none;
-    padding: 4px;
-    background-color: aquamarine;
-    margin: 10px;
-    cursor: text;
-    
-  }
   button{
     border-radius: 20%;
     height: 40px;
     border: none;
-    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color:cornflowerblue;
-    margin: 10px auto;
+    margin: 10px;
     cursor: pointer;
+    font-size: large;
     
   }
   
@@ -79,20 +81,34 @@
   .bmi-guide {
     margin-top: 20px;
   }
-   table {
+  .bmi-guide table {
     width: 100%;
     border-collapse: collapse;
   }
-  th, td {
+  .bmi-guide th, .bmi-guide td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
   }
- th {
+  .bmi-guide th {
     background-color: #f2f2f2;
   }
-  h3{
-    background-color: chocolate;
-    padding: 20px;
+  span{
+    background-color:darkturquoise;
+    padding: 10px;
     font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  div {
+    background-color: #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: center items horizontally */
+    justify-content: center; /* Optional: center items vertically */
+    width: 60vh;
+    margin: auto;
+    gap: 4px;
+    border-radius: 15%;
+    padding-bottom: 10px;
   }
